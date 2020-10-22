@@ -7,7 +7,8 @@ Actividad: Convertir una temperatura dada en la escala Celsius e imprímase en s
 //Utilizamos para no tipear std::
 using namespace std;
 
-int main(int argc, const char** argv) {
+int main(int argc, const char **argv)
+{
     //Definimos variables.
     float aux = 0;
     //Imprimimos texto y pedimos el ingreso a la variable.
@@ -16,7 +17,7 @@ int main(int argc, const char** argv) {
     //Imprimimos texto.
     cout << "Celcius: " << aux << endl;
     //Calculamos.
-    aux = (9/5) * aux + 32;
+    aux = (9 / 5) * aux + 32;
     //Imprimimos el resultado.
     cout << "Fahrenheit: " << aux << endl;
     return 0;
